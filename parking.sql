@@ -8,6 +8,7 @@ CREATE TABLE parking(
     square_id INT 
     /* esto es un comentario */
     /* esto es un segundo comentario */
+    /* esto es un tercer comentario */
 );
 
 
