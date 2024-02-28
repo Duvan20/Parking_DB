@@ -101,3 +101,7 @@ CALL data_list
 DROP PROCEDURE data_list()
 
 CREATE VIEW data_list as SELECT * FROM cars
+
+CREATE TABLE hola(
+    
+)
