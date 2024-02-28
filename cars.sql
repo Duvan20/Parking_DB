@@ -89,3 +89,13 @@ CREATE VIEW list_cars as SELECT * FROM cars
 
 -- delete vist or funncion what save in VIEW
 DROP VIEW list_cars
+
+
+CREATE PROCEDURE data_list()
+BEGIN
+    SELECT * FROM cars;
+END
+
+CALL data_list
+
+DROP PROCEDURE data_list()
