@@ -6,6 +6,7 @@ CREATE TABLE parking(
     status_id INT,
     car_id INT,
     square_id INT 
+    /* esto es un comentario */
 );
 
 
